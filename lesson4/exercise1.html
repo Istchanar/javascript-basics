@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 1</title>
+</head>
+
+<body>
+    <script>
+    "use strict";
+
+    tempC = prompt("Введите температуру в градусах Цельсия для конвертации в Фаренгейты:");
+    alert(`Температура в Цельсиях: ${tempC}, в Фаренгейтах: ${convertFromCelsiusToFahrenheit(tempC)}`);
+ 
+    function convertFromCelsiusToFahrenheit(tempC){
+        tenmF = (9 / 5) * tempC + 32;
+        return tenmF;
+    }
+    </script>
+</body>
+
+</html>
